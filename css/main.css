@@ -22,9 +22,11 @@ a{
 }
 .logo{
 	float: left;
+	color: fff;
 }
 .nav-links{
 	float: right;
+	color: fff;
 
 
 }
