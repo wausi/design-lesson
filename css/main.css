@@ -59,3 +59,17 @@ nav{
 	padding-bottom: 100px;
 	padding-left: 10px;
 }
+main{
+	padding-right: 300px;
+	padding-left: 350px;
+}
+.prev-post{
+	text-align: right;
+	border: 1px solid gray;
+	padding-right: 10px;	
+	margin: 10px;
+	margin-left: 550px;
+}
+footer{
+	text-align: center;
+}
