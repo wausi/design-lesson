@@ -18,6 +18,7 @@ a{
 
 .logo{
 	float: left;
+	color: white;
 }
 
 .nav-links{
@@ -60,4 +61,5 @@ header{
 	background-image: url('../images/blog-background.jpg');
 	background-position: center center;
 	background-size: cover;
+	color: white;
 }
