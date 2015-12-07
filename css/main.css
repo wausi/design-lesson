@@ -1,3 +1,8 @@
+header{
+	background-image: url('../images/background.jpg');
+	background-position: center;
+	background-size: cover;
+}
 body{
 	font-family: "Open sans", "Helvetica";
 	margin: 0px;
@@ -15,51 +20,56 @@ ul{
 a{
 	text-decoration: none;
 }
-
 .logo{
 	float: left;
-	color: white;
+	color: fff;
 }
-
 .nav-links{
 	float: right;
-}
+	color: fff;
 
+
+}
+nav:after{
+ 	content: "";
+ 	display: block;
+	 clear: both;
+}
+.blog-title{
+	text-align: center;
+	padding-top: 30px;
+	color: fff;
+	font-size: 40px;
+}
+.blog-description{
+	text-align: center;
+	padding-bottom: 140px;
+	color: fff;
+	font-size: 20px;
+}
 .nav-links li{
 	display: inline-block;
-	padding-left: 10px;
 	padding-right: 10px;
+	padding-left: 10px;
 }
-
 nav{
-	margin-bottom: 49px;
+	margin-bottom: 60px;
 	padding-top: 11px;
 	padding-right: 30px;
-	padding-bottom: 11px;
+	padding-bottom: 100px;
 	padding-left: 10px;
 }
-
-nav:after{
-	content: "";
-	display: block;
-	clear: both;
+main{
+	padding-right: 300px;
+	padding-left: 350px;
 }
-
-.blog-title, .blog-description{
+.prev-post{
+	text-align: right;
+	border: 1px solid gray;
+	padding-right: 10px;	
+	margin: 10px;
+	margin-left: 550px;
+}
+footer{
 	text-align: center;
-}
-
-.blog-title{
-	padding-top: 30px;
-}
-
-.blog-description{
-	padding-bottom: 140px;
-}
-
-header{
-	background-image: url('../images/blog-background.jpg');
-	background-position: center center;
-	background-size: cover;
-	color: white;
 }
