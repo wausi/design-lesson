@@ -51,6 +51,8 @@ a{
 	color: white;
 	font-family: "Open Sans";
 	font-weight: 800;
+	font-size: 18px;
+	margin-left: 20px;
 }
 .nav-links{
 	float: right;
@@ -58,8 +60,8 @@ a{
 }
 .nav-links li{
 	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
 	font-family: "Open Sans";
 	font-weight: 800;
 	font-size: 12px;
@@ -85,26 +87,34 @@ nav:after{
 	color: white;
 	font-family: "Open Sans";
 	font-weight: 800;
-	
-	
+	font-size: 60px;
+	margin: 0px;
+}
+.divider{
+	max-width: 100px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: #FFF;
+	border-style: solid none none;
 }
 .blog-description{
 	text-align: center;
 	padding-bottom: 140px;
 	color: white;
+	font-size: 23px;
 }
 main{
 	max-width: 640px;
-	margin: 0px auto;
+	margin: 50px auto;
 }
 
 .prev-post{
 	float: right;
 	padding: 10px;
 	border: 1px solid gray;
-	font-family: "Helvetica";
-      
-
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 800;
 }
 .older-posts:after{
 	content: "";
@@ -119,13 +129,27 @@ main{
 }
 .article{
 	font-family: "Open Sans";
-	font-size: 16px;
+	font-size: 24px;
+	color: #404040;
+	margin: 5px 0px;
 }
 .title{
 	font-family: "Open Sans";
+	font-size: 36px;
+	margin: 0px;
+}
+.post-item{
+	border-bottom: 1px solid rgb(238, 238, 238);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 footer{
 	text-align: center;
+}
+.social-links img{
+	background-color: rgb(84, 84, 84);
+	border-radius: 25px;
+	padding: 5px;
 }
 .copyright{
 	font-family: "Lora";
