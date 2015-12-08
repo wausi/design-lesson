@@ -1,3 +1,29 @@
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 800;
+      src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url("../fonts/open-sans-extrabold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 300;
+      src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/open-sans-light-regular.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Lora";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Lora"), local("Lora-Regular"), url("../fonts/lora.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Lora";
+      font-style: italic;
+      font-weight: 400;
+      src: local("Lora Italic"), local("Lora-Italic"), url("../fonts/lora-italic.woff2") format("woff2");
+    }
+
+
 header{
 	background-image: url('../images/background.jpg');
 	background-position: center;
@@ -22,12 +48,29 @@ a{
 }
 .logo{
 	float: left;
-	color: fff;
+	color: white;
+	font-family: "Open Sans";
+	font-weight: 800;
 }
 .nav-links{
 	float: right;
-	color: fff;
-
+	color: white;
+}
+.nav-links li{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: "Open Sans";
+	font-weight: 800;
+	font-size: 12px;
+}
+nav{
+	margin-bottom: 60px;
+	padding-top: 11px;
+	padding-right: 30px;
+	padding-bottom: 100px;
+	padding-left: 10px;
+}
 
 }
 nav:after{
@@ -37,39 +80,53 @@ nav:after{
 }
 .blog-title{
 	text-align: center;
-	padding-top: 30px;
-	color: fff;
-	font-size: 40px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: "Open Sans";
+	font-weight: 800;
+	
+	
 }
 .blog-description{
 	text-align: center;
 	padding-bottom: 140px;
-	color: fff;
-	font-size: 20px;
-}
-.nav-links li{
-	display: inline-block;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-nav{
-	margin-bottom: 60px;
-	padding-top: 11px;
-	padding-right: 30px;
-	padding-bottom: 100px;
-	padding-left: 10px;
+	color: white;
 }
 main{
-	padding-right: 300px;
-	padding-left: 350px;
+	max-width: 640px;
+	margin: 0px auto;
 }
+
 .prev-post{
-	text-align: right;
+	float: right;
+	padding: 10px;
 	border: 1px solid gray;
-	padding-right: 10px;	
-	margin: 10px;
-	margin-left: 550px;
+	font-family: "Helvetica";
+      
+
+}
+.older-posts:after{
+	content: "";
+ 	display: block;
+	clear: both;
+}	
+
+.article-details{
+	font-family: "Lora";
+	font-style: italic;
+	font-size: 16px;
+}
+.article{
+	font-family: "Open Sans";
+	font-size: 16px;
+}
+.title{
+	font-family: "Open Sans";
 }
 footer{
 	text-align: center;
+}
+.copyright{
+	font-family: "Lora";
 }
