@@ -60,6 +60,7 @@ a{
 }
 .logo:active{
 	color:red;
+
 }
 .nav-links{
 	float: right;
@@ -106,6 +107,10 @@ nav:after{
 }
 .divider{
 	max-width: 200px;
+	margin: 0px;
+}
+.divider{
+	max-width: 100px;
 	margin: 15px auto;
 	border-width: 4px;
 	border-color: #FFF;
@@ -174,12 +179,26 @@ main{
 	background-color: #0085A1;
     border: 1px solid #0085A1;
     color:#FFF;
+	font-size: 12px;
+	font-weight: 800;
+
 }
 .older-posts:after{
 	content: "";
  	display: block;
 	clear: both;
 }	
+
+.title{
+	font-family: "Open Sans";
+	font-size: 36px;
+	margin: 0px;
+}
+.post-item{
+	border-bottom: 1px solid rgb(238, 238, 238);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
 .social-links{
 	padding-bottom: 30px;
 	margin-top: 50px;
@@ -191,20 +210,22 @@ main{
 	font-family: "Open Sans";
 	margin: 6px;
 }
-.social-links a:hover{
-	background-color: #0085A1;
-}
 .social-links a:focus{
 	background-color: #337AB7;
 }
 .social-links a:active{
 	background-color: #404040;
 }
+.social-links a:hover{
+	background-color: #0085A1;
+	
+}
 footer{ 
 	border-top: 1px solid rgb(238, 238, 238); 
 	text-align: center; 
 	margin: 50px 0px 65px; 
 }
+
 .copyright{
 	font-family: "Lora";
 	font-size: 14px;
