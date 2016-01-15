@@ -31,12 +31,10 @@ body{
 	font-family: "Open sans", "Helvetica";
 	margin: 0px;
 }
-
 ul,li,span,a,p{
 	margin: 0px;
 	padding: 0px;
 }
-
 ul a{
 	list-style: none;
 	color: white;
@@ -126,7 +124,6 @@ main{
 	max-width: 640px;
 	margin: 50px auto;
 }
-
 .title{
 	font-family: "Open Sans";
 	font-size: 32px;
@@ -222,7 +219,6 @@ footer{
 	text-align: center; 
 	margin: 50px 0px 65px; 
 }
-
 .copyright{
 	font-family: "Lora";
 	font-size: 14px;
