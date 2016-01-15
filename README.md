@@ -1,2 +1,2 @@
 # design-lesson
-# Lesson One: Using git
+## Lesson One: Using git
